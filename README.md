@@ -2,7 +2,7 @@
 
 Train and validate with k-fold cross-validation using Random Forest and Support Vector Regression
 
-To use this code, the only input needed is "data-rssi-urban.csv," which contains:
+To use this code, the only input needed is "random_dataset-rssi-urban.csv" which contains:
 
 - node_tx: Tx ID
 - node_rx: Rx ID
