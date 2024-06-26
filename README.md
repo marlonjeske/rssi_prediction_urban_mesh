@@ -1,4 +1,17 @@
-# RSSI PREDICTION FOR URBAN MESH NETWORKS
+# Received Signal Strength Indicator Prediction for Mesh Networks in a Real Urban Environment Using Machine Learning
+
+To cite the contents of this repository, please cite this the paper and this repo.
+Below is the BibTex for citing this snapshot of the repository.
+
+@misc{Jeskeetal2024,
+  author =        {M. Jeske and B. Sansó and D. Aloise and M. C. V. Nascimento},
+  title =         {Received Signal Strength Indicator Prediction for Mesh Networks in a Real Urban Environment Using Machine Learning},
+  year =          {2024},
+  url =           {https://github.com/marlonjeske/rssi_prediction_urban_mesh},
+  note =          {Submitted to IEEE Access},
+}  
+
+# Description
 
 Train and validate with k-fold cross-validation using Random Forest and Support Vector Regression
 
