@@ -8,7 +8,7 @@ To cite the contents of this repository, please cite this paper and this repo.
 
 M. Jeske and B. Sansó and D. Aloise and M. C. V. Nascimento (2024) Received Signal Strength Indicator Prediction for Mesh Networks in a Real Urban Environment Using Machine Learning. Submitted to IEEE Access.
 
-M. Jeske and B. Sansó and D. Aloise and M. C. V. Nascimento (2024) Received Signal Strength Indicator Prediction for Mesh Networks in a Real Urban Environment Using Machine Learning.(https://github.com/marlonjeske/rssi_prediction_urban_mesh).
+Marlon Jeske. Received signal strength indicator prediction for mesh networks in a real urban environment using machine learning. https://github.com/marlonjeske/rssi_prediction_urban_mesh, 2024. GitHub repository.
 
 
 ## Data
