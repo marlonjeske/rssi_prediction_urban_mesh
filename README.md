@@ -33,16 +33,20 @@ To use this code, the only input needed is a CSV file, "dataset-rssi-urban.csv",
 
 1. **Prepare Your Data**: Ensure you have a CSV file with the required columns as described above. This file should be ready and saved on your computer.
 
-2. **Open RStudio**: Launch RStudio on your computer.
+2. **Open RStudio**: Launch RStudio on your computer. Open the R file "rssi_prediction_urban_mesh.R"
 
 3. **Set Your Working Directory**: In RStudio, set your working directory to the folder where your CSV file is located. You can do this by clicking on the `Session` menu, selecting `Set Working Directory`, and then `Choose Directory...`. Navigate to the folder containing your CSV file and select it.
 
-4. **Load Your Data**: If needed, update line 11 in the code to load your CSV file:
+4. **Install Required Packages**: Ensure you have the necessary packages installed by running:
+    ```R
+    install.packages(c("tidyverse", "Metrics", "caret", "randomForest", "e1071"))
+    ```
+    
+5. **Load Your Data**: If needed, update line 11 in the code to load your CSV file:
     ```R
     dados_reg <- read_delim("dataset-rssi-urban.csv", delim = ";")
     ```
+6. **Run the R Code**: On the RStudio, click on the `Code` menu, then `Run Region`, and click on `Run All`. Or press `Ctrl + Alt + R`.
 
-5. **Run the R Code**: On the RStudio, click on the `Code` menu, then `Run Region`, and click on `Run All`. Or press `Ctrl + Alt + R`.
-
-6. **View Results**: Check the console pane (bottom-left) to see the output.
+7. **View Results**: Check the console pane (bottom-left) to see the output.
 
