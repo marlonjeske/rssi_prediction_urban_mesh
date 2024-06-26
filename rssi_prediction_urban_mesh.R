@@ -1,21 +1,11 @@
 ###################################################################################################################
-#######################################   PACKGES AND FOLDER   ####################################################
+#######################################   PACKAGES AND FOLDER   ###################################################
 ###################################################################################################################
-library(tidyverse)
-library(fBasics)
-library(Hmisc)
-library(factoextra)
-library(Metrics)
-library(GGally)
-library(caret)
-library(car)
-library(rgl)
-library(nortest)
-library(MASS)
-library(randomForest)
-library(e1071)
-library(class)
-
+library(tidyverse) #Used for data manipulation and plotting
+library(Metrics) #Used for calculating error measures
+library(caret) #Used for model training and cross-validation
+library(randomForest) #Used for training the random forest model
+library(e1071) #Used for tuning and training the SVR model
 
 #Get data
 dados_reg <- read_delim("dataset-rssi-urban.csv", delim = ";")
