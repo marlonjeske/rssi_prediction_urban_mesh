@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/809104354.svg)](https://zenodo.org/doi/10.5281/zenodo.12552335)
+
 # Received Signal Strength Indicator Prediction for Mesh Networks in a Real Urban Environment Using Machine Learning
 
 Source code for RSSI prediction using machine learning. This code includes training and validation with k-fold cross-validation using Random Forest and Support Vector Regression.
